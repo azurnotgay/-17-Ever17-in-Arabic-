@@ -5,4 +5,5 @@ HxD
 x32dbg
 
 
-## you can search for any of them in the web, I included in the repo the tools that are hard to find like AE - VN Tools
+
+## you can search for any of them in the web, I included tools that are hard to find like AE - VN Tools in this folder
