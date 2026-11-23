@@ -1,0 +1,65 @@
+KID Tools GUI (a.k.a. KTG)
+
+by AyuanX
+2008.07.17
+
+
+<>Instruction Manual:
+
+None. Do we need one?
+
+
+<>What's new:
+
+# V2.1 Build 080717
+
+1. RGB/BGR color auto correction for display
+2. Full support with "12RIVEN -the ¦·climinal of integral-"
+3. Full Support with "Memories Off History Series" of total 8 games
+
+
+# V2.0 Build 080709
+
+1. Character figure pack of game "12RIVEN" Supported
+
+
+# V2.0 Build 080708
+
+1. Explicit recognition of script pack of game "12RIVEN"
+2. Escalate the priority of backgrouond thread by a little to guarantee audio playing quality
+
+
+# V2.0 Build 080707
+
+1. Employ GDI+ as graphic interface
+2. Employ DirectSound as audio interface
+3. Tranpsarent PNG with Alpha channel supported
+4. Black/White background alternative (for better visual with transparent images)
+5. Build-in OGG decoder added
+6. Mousewheel scroll on image view supported
+7. GUI stylish conformity, keyboard shortcut modification
+7. Full support with game "Remember11 -the age of infinity-"
+8. Limited support with game "12RIVEN -the ¦·climinal of integral-"
+
+
+# V1.0 - V1.5
+
+Sorry, I just can't remember the details of history so long ago.
+
+
+<>Issues: 
+
+1. RGB/BGR color auto correction is only effective for display. If you are gonna save the file to disk, you still need to do the BGR->RGB color conversion manually with some images.
+
+2. Some character figures have got nasty noise stripes in the middle. My best guess is KID plays some trick with us, but I really don't have time for this.
+
+3. Since TGA doesn't support 4bit palette, I have no other way but to convert such 4bit palette indexed images to greyscale images. Anyway, I still attach the original palette to the end of file, so you can revert the color back when necessary. 
+
+
+<>Miscellaneous:
+
+So long, so tired, so messing.
+Miracles sometimes occur, but one has to work terribly for them.
+
+
+EOF
