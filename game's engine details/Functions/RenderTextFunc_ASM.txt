@@ -1,0 +1,1977 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                               undefined __stdcall RenderTextFunc_0041524c(uint param_1
+                               assume FS_OFFSET = 0xffdff000
+             undefined         <UNASSIGNED>   <RETURN>
+             uint              Stack[0x4]:4   param_1
+             undefined4        Stack[0x8]:4   param_2
+             undefined4        Stack[0xc]:4   param_3
+             undefined4        Stack[0x10]:4  param_4                                 XREF[12]:    004152e5(R), 
+                                                                                                   004153fb(R), 
+                                                                                                   004155cd(R), 
+                                                                                                   004156b7(R), 
+                                                                                                   004156fd(R), 
+                                                                                                   00415711(W), 
+                                                                                                   0041572f(W), 
+                                                                                                   00415770(R), 
+                                                                                                   0041577a(W), 
+                                                                                                   00415826(R), 
+                                                                                                   00415914(R), 
+                                                                                                   00415abb(R)  
+             undefined4        Stack[0x14]:4  param_5                                 XREF[8]:     004152ff(W), 
+                                                                                                   00415320(W), 
+                                                                                                   004155ea(R), 
+                                                                                                   004155f4(W), 
+                                                                                                   004156bf(R), 
+                                                                                                   004156d5(W), 
+                                                                                                   0041572b(R), 
+                                                                                                   00415751(R)  
+             uint              Stack[0x18]:4  param_6                                 XREF[4]:     004157e9(R), 
+                                                                                                   004158b4(R), 
+                                                                                                   004159f4(R), 
+                                                                                                   00415a97(R)  
+             uint              Stack[0x1c]:4  param_7                                 XREF[4]:     004157ed(R), 
+                                                                                                   004158b8(R), 
+                                                                                                   004159f8(R), 
+                                                                                                   00415a9b(R)  
+             undefined4        Stack[0x20]:4  param_8                                 XREF[11]:    00415328(R), 
+                                                                                                   004153d0(R), 
+                                                                                                   0041541f(W), 
+                                                                                                   0041544a(R), 
+                                                                                                   00415454(W), 
+                                                                                                   00415701(R), 
+                                                                                                   00415717(W), 
+                                                                                                   00415723(W), 
+                                                                                                   0041577e(W), 
+                                                                                                   004158d0(R), 
+                                                                                                   00415a10(R)  
+             undefined4        Stack[0x24]:4  param_9                                 XREF[4]:     004153ff(R), 
+                                                                                                   0041543a(W), 
+                                                                                                   00415473(R), 
+                                                                                                   0041547c(W)  
+             undefined4        Stack[0x28]:4  param_10                                XREF[5]:     00415303(W), 
+                                                                                                   00415324(W), 
+                                                                                                   00415425(R), 
+                                                                                                   00415733(R), 
+                                                                                                   00415768(R)  
+             undefined4        Stack[0x2c]:4  param_11                                XREF[1]:     004153ea(W)  
+             undefined8        Stack[0x30]:8  param_12                                XREF[32,7]:  00415462(W), 
+                                                                                                   00415487(*), 
+                                                                                                   004154c2(*), 
+                                                                                                   004154fe(*), 
+                                                                                                   0041553a(*), 
+                                                                                                   0041555a(*), 
+                                                                                                   00415596(*), 
+                                                                                                   004155fd(*), 
+                                                                                                   0041562f(*), 
+                                                                                                   00415664(*), 
+                                                                                                   004156a3(*), 
+                                                                                                   004156e4(R), 
+                                                                                                   004157b5(*), 
+                                                                                                   004157d7(*), 
+                                                                                                   0041585f(W), 
+                                                                                                   00415880(*), 
+                                                                                                   004158a2(*), 
+                                                                                                   00415945(W), 
+                                                                                                   0041594c(W), 
+                                                                                                   00415953(W)  
+             undefined4        Stack[0x38]:4  param_13                                XREF[19]:    0041542e(*), 
+                                                                                                   004154a8(*), 
+                                                                                                   004154e4(*), 
+                                                                                                   00415520(*), 
+                                                                                                   0041557c(*), 
+                                                                                                   004155bb(*), 
+                                                                                                   004155d7(R), 
+                                                                                                   004155f0(W), 
+                                                                                                   00415622(*), 
+                                                                                                   00415654(*), 
+                                                                                                   00415689(*), 
+                                                                                                   004156bb(R), 
+                                                                                                   004156c9(W), 
+                                                                                                   00415742(W), 
+                                                                                                   00415764(W), 
+                                                                                                   004157f2(*), 
+                                                                                                   004158bd(*), 
+                                                                                                   004159fd(*), 
+                                                                                                   00415aa0(*)  
+             undefined4        Stack[0x3c]:4  param_14                                XREF[2]:     00415746(W), 
+                                                                                                   0041576c(W)  
+             int *             Stack[0x40]:4  param_15
+             undefined4        Stack[0x44]:4  param_16
+             int *             Stack[0x48]:4  param_17                                XREF[16]:    004154a1(*), 
+                                                                                                   004154ac(*), 
+                                                                                                   004154db(*), 
+                                                                                                   004154e8(*), 
+                                                                                                   00415517(*), 
+                                                                                                   00415524(*), 
+                                                                                                   00415573(*), 
+                                                                                                   00415580(*), 
+                                                                                                   004155af(*), 
+                                                                                                   004155bf(*), 
+                                                                                                   00415616(*), 
+                                                                                                   00415626(*), 
+                                                                                                   00415648(*), 
+                                                                                                   00415658(*), 
+                                                                                                   0041567d(*), 
+                                                                                                   0041568d(*)  
+             undefined4        EBP:4          unaff_EBP
+             undefined4        Stack[0x70]:4  BUFFER_StringStack_00000070             XREF[3]:     00415458(R), 
+                                                                                                   00415466(W), 
+                                                                                                   0041546f(W)  
+             undefined4        Stack[0x6c]:4  handle_inStack_0000006c                 XREF[19]:    004153bc(*), 
+                                                                                                   004153d4(R), 
+                                                                                                   004153ee(R), 
+                                                                                                   004157a2(R), 
+                                                                                                   004157b1(R), 
+                                                                                                   004157c7(R), 
+                                                                                                   004157d3(R), 
+                                                                                                   0041586d(R), 
+                                                                                                   0041587c(R), 
+                                                                                                   00415892(R), 
+                                                                                                   0041589e(R), 
+                                                                                                   004159ad(R), 
+                                                                                                   004159bc(R), 
+                                                                                                   004159d2(R), 
+                                                                                                   004159de(R), 
+                                                                                                   00415a50(R), 
+                                                                                                   00415a5f(R), 
+                                                                                                   00415a75(R), 
+                                                                                                   00415a81(R)  
+             0x1524c
+                             RenderTextFunc_0041524c                         XREF[1]:     FUN_004392be:00439362(c)  
+        0041524c 39 3d 40        CMP        dword ptr [DAT_007ca340],EDI
+                 a3 7c 00
+             0x15252
+        00415252 0f 86 bc        JBE        LAB_00415314
+                 00 00 00
+             0x15258
+        00415258 8b 0d 44        MOV        ECX,dword ptr [DAT_00459144]
+                 91 45 00
+             0x1525e
+        0041525e 8b 04 8d        MOV        EAX,dword ptr [ECX*0x4 + DAT_00458f00]
+                 00 8f 45 00
+             0x15265
+        00415265 85 c0           TEST       EAX,EAX
+             0x15267
+        00415267 75 0f           JNZ        LAB_00415278
+             0x15269
+        00415269 5f              POP        EDI
+             0x1526a
+        0041526a 41              INC        ECX
+             0x1526b
+        0041526b 5e              POP        ESI
+             0x1526c
+        0041526c 5d              POP        unaff_EBP
+             0x1526d
+        0041526d 89 0d 44        MOV        dword ptr [DAT_00459144],ECX
+                 91 45 00
+             0x15273
+        00415273 5b              POP        EBX
+             0x15274
+        00415274 83 c4 58        ADD        ESP,0x58
+             0x15277
+        00415277 c3              RET
+             0x15278
+                             LAB_00415278                                    XREF[1]:     00415267(j)  
+        00415278 a1 d4 8d        MOV        EAX,[DAT_00458dd4]
+                 45 00
+             0x1527d
+        0041527d 8b 54 24 74     MOV        EDX,dword ptr [ESP + Stack[0x74]]
+             0x15281
+        00415281 68 54 c8        PUSH       DAT_0044c854                                     = 82h
+                 44 00
+             0x15286
+        00415286 56              PUSH       ESI
+             0x15287
+        00415287 89 14 85        MOV        dword ptr [EAX*0x4 + DAT_00458fe0],EDX
+                 e0 8f 45 00
+             0x1528e
+        0041528e 89 0c 85        MOV        dword ptr [EAX*0x4 + DAT_00458f60],ECX
+                 60 8f 45 00
+             0x15295
+        00415295 e8 aa d3        CALL       FUN_00432644                                     undefined FUN_00432644()
+                 01 00
+             0x1529a
+        0041529a 83 c4 08        ADD        ESP,0x8
+             0x1529d
+        0041529d 85 c0           TEST       EAX,EAX
+             0x1529f
+        0041529f 74 11           JZ         LAB_004152b2
+             0x152a1
+        004152a1 a1 d4 8d        MOV        EAX,[DAT_00458dd4]
+                 45 00
+             0x152a6
+        004152a6 8b 0c 85        MOV        ECX,dword ptr [EAX*0x4 + DAT_00458fe0]
+                 e0 8f 45 00
+             0x152ad
+        004152ad 83 c1 fc        ADD        ECX,-0x4
+             0x152b0
+        004152b0 eb 1f           JMP        LAB_004152d1
+             0x152b2
+                             LAB_004152b2                                    XREF[1]:     0041529f(j)  
+        004152b2 68 3c c8        PUSH       DAT_0044c83c                                     = 82h
+                 44 00
+             0x152b7
+        004152b7 56              PUSH       ESI
+             0x152b8
+        004152b8 e8 87 d3        CALL       FUN_00432644                                     undefined FUN_00432644()
+                 01 00
+             0x152bd
+        004152bd 83 c4 08        ADD        ESP,0x8
+             0x152c0
+        004152c0 85 c0           TEST       EAX,EAX
+             0x152c2
+        004152c2 a1 d4 8d        MOV        EAX,[DAT_00458dd4]
+                 45 00
+             0x152c7
+        004152c7 74 0f           JZ         LAB_004152d8
+             0x152c9
+        004152c9 8b 0c 85        MOV        ECX,dword ptr [EAX*0x4 + DAT_00458fe0]
+                 e0 8f 45 00
+             0x152d0
+        004152d0 49              DEC        ECX
+             0x152d1
+                             LAB_004152d1                                    XREF[1]:     004152b0(j)  
+        004152d1 89 0c 85        MOV        dword ptr [EAX*0x4 + DAT_00458fe0],ECX
+                 e0 8f 45 00
+             0x152d8
+                             LAB_004152d8                                    XREF[1]:     004152c7(j)  
+        004152d8 8b 0c 85        MOV        ECX,dword ptr [EAX*0x4 + DAT_00458fe0]
+                 e0 8f 45 00
+             0x152df
+        004152df 8b 15 44        MOV        EDX,dword ptr [DAT_00459144]
+                 91 45 00
+             0x152e5
+        004152e5 0f af 4c        IMUL       ECX,dword ptr [ESP + param_4]
+                 24 10
+             0x152ea
+        004152ea 8d 3c 40        LEA        EDI,[EAX + EAX*0x2]
+             0x152ed
+        004152ed bb d0 02        MOV        EBX,0x2d0
+                 00 00
+             0x152f2
+        004152f2 d1 e9           SHR        ECX,0x1
+             0x152f4
+        004152f4 2b d9           SUB        EBX,ECX
+             0x152f6
+        004152f6 8d 3c bf        LEA        EDI,[EDI + EDI*0x4]
+             0x152f9
+        004152f9 d1 eb           SHR        EBX,0x1
+             0x152fb
+        004152fb d1 e7           SHL        EDI,0x1
+             0x152fd
+        004152fd 42              INC        EDX
+             0x152fe
+        004152fe 40              INC        EAX
+             0x152ff
+        004152ff 89 5c 24 14     MOV        dword ptr [ESP + param_5],EBX
+             0x15303
+        00415303 89 7c 24 28     MOV        dword ptr [ESP + param_10],EDI
+             0x15307
+        00415307 89 15 44        MOV        dword ptr [DAT_00459144],EDX
+                 91 45 00
+             0x1530d
+        0041530d a3 d4 8d        MOV        [DAT_00458dd4],EAX
+                 45 00
+             0x15312
+        00415312 eb 14           JMP        LAB_00415328
+             0x15314
+                             LAB_00415314                                    XREF[1]:     00415252(j)  
+        00415314 8b 9d 3c        MOV        EBX,dword ptr [unaff_EBP + 0x13c]
+                 01 00 00
+             0x1531a
+        0041531a 8b bd 40        MOV        EDI,dword ptr [unaff_EBP + 0x140]
+                 01 00 00
+             0x15320
+        00415320 89 5c 24 14     MOV        dword ptr [ESP + param_5],EBX
+             0x15324
+        00415324 89 7c 24 28     MOV        dword ptr [ESP + param_10],EDI
+             0x15328
+                             LAB_00415328                                    XREF[1]:     00415312(j)  
+        00415328 8b 74 24 20     MOV        ESI,dword ptr [ESP + param_8]
+             0x1532c
+        0041532c 68 60 99        PUSH       DAT_00459960
+                 45 00
+             0x15331
+        00415331 c1 e6 06        SHL        ESI,0x6
+             0x15334
+        00415334 8b 96 80        MOV        EDX,dword ptr [ESI + DAT_0044c480]
+                 c4 44 00
+             0x1533a
+        0041533a 8b 86 48        MOV        EAX,dword ptr [ESI + DAT_0044c448]               = 3Ch    <
+                 c4 44 00
+             0x15340
+        00415340 0f af 54        IMUL       EDX,dword ptr [ESP + Stack[0x74]]
+                 24 78
+             0x15345
+        00415345 a3 6c 99        MOV        [DAT_0045996c],EAX
+                 45 00
+             0x1534a
+        0041534a a1 e0 99        MOV        EAX,[DAT_004599e0]
+                 45 00
+             0x1534f
+        0041534f 89 15 68        MOV        dword ptr [DAT_00459968],EDX
+                 99 45 00
+             0x15355
+        00415355 8b 88 80        MOV        ECX,dword ptr [EAX + 0x80]
+                 00 00 00
+             0x1535b
+        0041535b c1 e9 10        SHR        ECX,0x10
+             0x1535e
+        0041535e 03 cb           ADD        ECX,EBX
+             0x15360
+        00415360 89 0d 60        MOV        dword ptr [DAT_00459960],ECX
+                 99 45 00
+             0x15366
+        00415366 8b 90 84        MOV        EDX,dword ptr [EAX + 0x84]
+                 00 00 00
+             0x1536c
+        0041536c c1 ea 10        SHR        EDX,0x10
+             0x1536f
+        0041536f 03 d7           ADD        EDX,EDI
+             0x15371
+        00415371 89 15 64        MOV        dword ptr [DAT_00459964],EDX
+                 99 45 00
+             0x15377
+        00415377 e8 e4 39        CALL       FUN_00428d60                                     undefined FUN_00428d60()
+                 01 00
+             0x1537c
+        0041537c a1 68 99        MOV        EAX,[DAT_00459968]
+                 45 00
+             0x15381
+        00415381 83 c4 04        ADD        ESP,0x4
+             0x15384
+        00415384 03 c3           ADD        EAX,EBX
+             0x15386
+        00415386 89 3d 2c        MOV        dword ptr [DAT_00458c2c],EDI
+                 8c 45 00
+             0x1538c
+        0041538c 3d d0 02        CMP        EAX,0x2d0
+                 00 00
+             0x15391
+        00415391 a3 24 8c        MOV        [DAT_00458c24],EAX
+                 45 00
+             0x15396
+        00415396 72 18           JC         LAB_004153b0
+             0x15398
+        00415398 8b 8e 48        MOV        ECX,dword ptr [ESI + DAT_0044c448]               = 3Ch    <
+                 c4 44 00
+             0x1539e
+        0041539e c7 05 24        MOV        dword ptr [DAT_00458c24],0x0
+                 8c 45 00 
+                 00 00 00 00
+             0x153a8
+        004153a8 03 cf           ADD        ECX,EDI
+             0x153aa
+        004153aa 89 0d 2c        MOV        dword ptr [DAT_00458c2c],ECX
+                 8c 45 00
+             0x153b0
+                             LAB_004153b0                                    XREF[1]:     00415396(j)  
+        004153b0 a1 40 a3        MOV        EAX,[DAT_007ca340]
+                 7c 00
+             0x153b5
+        004153b5 ba 01 00        MOV        EDX,0x1
+                 00 00
+             0x153ba
+        004153ba 3b d0           CMP        EDX,EAX
+             0x153bc
+        004153bc 8d 44 24 6c     LEA        EAX=>handle_inStack_0000006c,[ESP + 0x6c]
+             0x153c0
+        004153c0 1b f6           SBB        ESI,ESI
+             0x153c2
+        004153c2 50              PUSH       EAX
+             0x153c3
+        004153c3 83 e6 02        AND        ESI,0x2
+             0x153c6
+        004153c6 6a 3d           PUSH       0x3d
+             0x153c8
+        004153c8 83 c6 29        ADD        ESI,0x29
+             0x153cb
+        004153cb e8 80 81        CALL       FUN_0042d550                                     undefined FUN_0042d550()
+                 01 00
+             0x153d0
+        004153d0 8b 4c 24 28     MOV        ECX,dword ptr [ESP + param_8]
+             0x153d4
+        004153d4 8b 54 24 74     MOV        EDX,dword ptr [ESP + handle_inStack_0000006c]
+             0x153d8
+        004153d8 83 c4 08        ADD        ESP,0x8
+             0x153db
+        004153db 8b 04 8d        MOV        EAX,dword ptr [ECX*0x4 + DAT_007c9ae0]
+                 e0 9a 7c 00
+             0x153e2
+        004153e2 50              PUSH       EAX                                              HGDIOBJ h for SelectObject
+             0x153e3
+        004153e3 52              PUSH       EDX                                              HDC hdc for SelectObject
+             0x153e4
+        004153e4 ff 15 08        CALL       dword ptr [->GDI32.DLL::SelectObject]            = 0003b4ca
+                 a0 43 00
+             0x153ea
+        004153ea 89 44 24 2c     MOV        dword ptr [ESP + param_11],EAX
+             0x153ee
+        004153ee 8b 44 24 6c     MOV        EAX,dword ptr [ESP + handle_inStack_0000006c]
+             0x153f2
+        004153f2 6a 01           PUSH       0x1                                              int mode for SetBkMode
+             0x153f4
+        004153f4 50              PUSH       EAX                                              HDC hdc for SetBkMode
+             0x153f5
+        004153f5 ff 15 1c        CALL       dword ptr [->GDI32.DLL::SetBkMode]               = 0003b514
+                 a0 43 00
+             0x153fb
+        004153fb 8b 4c 24 10     MOV        ECX,dword ptr [ESP + param_4]
+             0x153ff
+        004153ff 8b 54 24 24     MOV        EDX,dword ptr [ESP + param_9]
+             0x15403
+        00415403 8b 3d 60        MOV        EDI,dword ptr [->USER32.DLL::SetRect]            = 0003b1b4
+                 a2 43 00
+             0x15409
+        00415409 c6 44 24        MOV        byte ptr [ESP + param_12+0x2],0x0
+                 32 00
+             0x1540e
+        0041540e 8d 04 09        LEA        EAX,[ECX + ECX*0x1]
+             0x15411
+        00415411 8d 0c 12        LEA        ECX,[EDX + EDX*0x1]
+             0x15414
+        00415414 51              PUSH       ECX                                              int yBottom for SetRect
+             0x15415
+        00415415 50              PUSH       EAX                                              int xRight for SetRect
+             0x15416
+        00415416 6a 00           PUSH       0x0                                              int yTop for SetRect
+             0x15418
+        00415418 8d 54 24 64     LEA        EDX=>Stack[0x58],[ESP + 0x64]
+             0x1541c
+        0041541c 6a 00           PUSH       0x0                                              int xLeft for SetRect
+             0x1541e
+        0041541e 52              PUSH       EDX                                              LPRECT lprc for SetRect
+             0x1541f
+        0041541f 89 44 24 34     MOV        dword ptr [ESP + param_8],EAX
+             0x15423
+        00415423 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x15425
+        00415425 8b 44 24 28     MOV        EAX,dword ptr [ESP + param_10]
+             0x15429
+        00415429 6a 00           PUSH       0x0                                              int yBottom for SetRect
+             0x1542b
+        0041542b 6a 00           PUSH       0x0                                              int xRight for SetRect
+             0x1542d
+        0041542d 50              PUSH       EAX                                              int yTop for SetRect
+             0x1542e
+        0041542e 8d 4c 24 44     LEA        ECX=>param_13,[ESP + 0x44]
+             0x15432
+        00415432 53              PUSH       EBX                                              int xLeft for SetRect
+             0x15433
+        00415433 51              PUSH       ECX                                              LPRECT lprc for SetRect
+             0x15434
+        00415434 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x15436
+        00415436 8b 44 24 74     MOV        EAX,dword ptr [ESP + Stack[0x74]]
+             0x1543a
+        0041543a c7 44 24        MOV        dword ptr [ESP + param_9],0x0
+                 24 00 00 
+                 00 00
+             0x15442
+        00415442 85 c0           TEST       EAX,EAX
+             0x15444
+        00415444 0f 86 6e        JBE        LAB_00415bb8
+                 07 00 00
+             0x1544a
+        0041544a 8b 54 24 20     MOV        EDX,dword ptr [ESP + param_8]
+             0x1544e
+        0041544e 8b 1d 30        MOV        EBX,dword ptr [->GDI32.DLL::SetTextColor]        = 0003b504
+                 a0 43 00
+             0x15454
+        00415454 89 54 24 20     MOV        dword ptr [ESP + param_8],EDX
+             0x15458
+                             LAB_00415458                                    XREF[1]:     FUN_00415b1f:00415bb2(j)  
+        00415458 8b 44 24 70     MOV        EAX,dword ptr [ESP + BUFFER_StringStack_000000
+             0x1545c
+        0041545c 8a 08           MOV        CL,byte ptr [EAX]
+             0x1545e
+        0041545e 40              INC        EAX
+             0x1545f
+        0041545f f6 c1 80        TEST       CL,0x80
+             0x15462
+        00415462 88 4c 24 30     MOV        byte ptr [ESP + param_12],CL
+             0x15466
+        00415466 89 44 24 70     MOV        dword ptr [ESP + BUFFER_StringStack_00000070],
+             0x1546a
+        0041546a 74 16           JZ         LAB_00415482
+             0x1546c
+        0041546c 8a 08           MOV        CL,byte ptr [EAX]
+             0x1546e
+        0041546e 40              INC        EAX
+             0x1546f
+        0041546f 89 44 24 70     MOV        dword ptr [ESP + BUFFER_StringStack_00000070],
+             0x15473
+        00415473 8b 44 24 24     MOV        EAX,dword ptr [ESP + param_9]
+             0x15477
+        00415477 40              INC        EAX
+             0x15478
+        00415478 88 4c 24 31     MOV        byte ptr [ESP + param_12+0x1],CL
+             0x1547c
+        0041547c 89 44 24 24     MOV        dword ptr [ESP + param_9],EAX
+             0x15480
+        00415480 eb 05           JMP        LAB_00415487
+             0x15482
+                             LAB_00415482                                    XREF[1]:     0041546a(j)  
+        00415482 c6 44 24        MOV        byte ptr [ESP + param_12+0x1],0x0
+                 31 00
+             0x15487
+                             LAB_00415487                                    XREF[1]:     00415480(j)  
+        00415487 8d 54 24 30     LEA        EDX=>param_12,[ESP + 0x30]
+             0x1548b
+        0041548b 68 38 c8        PUSH       lpString2_0044c838                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x15490
+        00415490 52              PUSH       EDX                                              LPCSTR lpString1 for lstrcmpA
+             0x15491
+        00415491 ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x15497
+        00415497 85 c0           TEST       EAX,EAX
+             0x15499
+        00415499 75 27           JNZ        LAB_004154c2
+             0x1549b
+        0041549b 6a 1e           PUSH       0x1e
+             0x1549d
+        0041549d 6a 1e           PUSH       0x1e
+             0x1549f
+        0041549f 50              PUSH       EAX
+             0x154a0
+        004154a0 50              PUSH       EAX
+             0x154a1
+                             LAB_004154a1                                    XREF[1]:     00415555(j)  
+        004154a1 8d 44 24 58     LEA        EAX=>param_17,[ESP + 0x58]
+             0x154a5
+        004154a5 50              PUSH       EAX                                              LPRECT lprc for SetRect
+             0x154a6
+        004154a6 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x154a8
+        004154a8 8d 4c 24 38     LEA        ECX=>param_13,[ESP + 0x38]
+             0x154ac
+        004154ac 8d 54 24 48     LEA        EDX=>param_17,[ESP + 0x48]
+             0x154b0
+        004154b0 51              PUSH       ECX
+             0x154b1
+        004154b1 56              PUSH       ESI
+             0x154b2
+        004154b2 52              PUSH       EDX
+             0x154b3
+        004154b3 6a 2c           PUSH       0x2c
+             0x154b5
+        004154b5 e8 56 85        CALL       FUN_0042da10                                     undefined FUN_0042da10()
+                 01 00
+             0x154ba
+        004154ba 83 c4 10        ADD        ESP,0x10
+             0x154bd
+        004154bd e9 bb 06        JMP        LAB_00415b7d
+                 00 00
+             0x154c2
+                             LAB_004154c2                                    XREF[1]:     00415499(j)  
+        004154c2 8d 44 24 30     LEA        EAX=>param_12,[ESP + 0x30]
+             0x154c6
+        004154c6 68 34 c8        PUSH       lpString2_0044c834                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x154cb
+        004154cb 50              PUSH       EAX                                              LPCSTR lpString1 for lstrcmpA
+             0x154cc
+        004154cc ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x154d2
+        004154d2 85 c0           TEST       EAX,EAX
+             0x154d4
+        004154d4 75 28           JNZ        LAB_004154fe
+             0x154d6
+        004154d6 6a 1e           PUSH       0x1e                                             int yBottom for SetRect
+             0x154d8
+        004154d8 6a 1e           PUSH       0x1e                                             int xRight for SetRect
+             0x154da
+        004154da 50              PUSH       EAX                                              int yTop for SetRect
+             0x154db
+        004154db 8d 4c 24 54     LEA        ECX=>param_17,[ESP + 0x54]
+             0x154df
+        004154df 6a 1e           PUSH       0x1e                                             int xLeft for SetRect
+             0x154e1
+        004154e1 51              PUSH       ECX                                              LPRECT lprc for SetRect
+             0x154e2
+        004154e2 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x154e4
+        004154e4 8d 54 24 38     LEA        EDX=>param_13,[ESP + 0x38]
+             0x154e8
+        004154e8 8d 44 24 48     LEA        EAX=>param_17,[ESP + 0x48]
+             0x154ec
+        004154ec 52              PUSH       EDX
+             0x154ed
+        004154ed 56              PUSH       ESI
+             0x154ee
+        004154ee 50              PUSH       EAX
+             0x154ef
+        004154ef 6a 2c           PUSH       0x2c
+             0x154f1
+        004154f1 e8 1a 85        CALL       FUN_0042da10                                     undefined FUN_0042da10()
+                 01 00
+             0x154f6
+        004154f6 83 c4 10        ADD        ESP,0x10
+             0x154f9
+        004154f9 e9 7f 06        JMP        LAB_00415b7d
+                 00 00
+             0x154fe
+                             LAB_004154fe                                    XREF[1]:     004154d4(j)  
+        004154fe 8d 4c 24 30     LEA        ECX=>param_12,[ESP + 0x30]
+             0x15502
+        00415502 68 30 c8        PUSH       lpString2_0044c830                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x15507
+        00415507 51              PUSH       ECX                                              LPCSTR lpString1 for lstrcmpA
+             0x15508
+        00415508 ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x1550e
+        0041550e 85 c0           TEST       EAX,EAX
+             0x15510
+        00415510 75 28           JNZ        LAB_0041553a
+             0x15512
+        00415512 6a 1e           PUSH       0x1e                                             int yBottom for SetRect
+             0x15514
+        00415514 6a 1e           PUSH       0x1e                                             int xRight for SetRect
+             0x15516
+        00415516 50              PUSH       EAX                                              int yTop for SetRect
+             0x15517
+        00415517 8d 54 24 54     LEA        EDX=>param_17,[ESP + 0x54]
+             0x1551b
+        0041551b 6a 3c           PUSH       0x3c                                             int xLeft for SetRect
+             0x1551d
+        0041551d 52              PUSH       EDX                                              LPRECT lprc for SetRect
+             0x1551e
+        0041551e ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x15520
+        00415520 8d 44 24 38     LEA        EAX=>param_13,[ESP + 0x38]
+             0x15524
+        00415524 8d 4c 24 48     LEA        ECX=>param_17,[ESP + 0x48]
+             0x15528
+        00415528 50              PUSH       EAX
+             0x15529
+        00415529 56              PUSH       ESI
+             0x1552a
+        0041552a 51              PUSH       ECX
+             0x1552b
+        0041552b 6a 2c           PUSH       0x2c
+             0x1552d
+        0041552d e8 de 84        CALL       FUN_0042da10                                     undefined FUN_0042da10()
+                 01 00
+             0x15532
+        00415532 83 c4 10        ADD        ESP,0x10
+             0x15535
+        00415535 e9 43 06        JMP        LAB_00415b7d
+                 00 00
+             0x1553a
+                             LAB_0041553a                                    XREF[1]:     00415510(j)  
+        0041553a 8d 54 24 30     LEA        EDX=>param_12,[ESP + 0x30]
+             0x1553e
+        0041553e 68 2c c8        PUSH       lpString2_0044c82c                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x15543
+        00415543 52              PUSH       EDX                                              LPCSTR lpString1 for lstrcmpA
+             0x15544
+        00415544 ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x1554a
+        0041554a 85 c0           TEST       EAX,EAX
+             0x1554c
+        0041554c 75 0c           JNZ        LAB_0041555a
+             0x1554e
+        0041554e 6a 1e           PUSH       0x1e
+             0x15550
+        00415550 6a 1e           PUSH       0x1e
+             0x15552
+        00415552 50              PUSH       EAX
+             0x15553
+        00415553 6a 5a           PUSH       0x5a
+             0x15555
+        00415555 e9 47 ff        JMP        LAB_004154a1
+                 ff ff
+             0x1555a
+                             LAB_0041555a                                    XREF[1]:     0041554c(j)  
+        0041555a 8d 44 24 30     LEA        EAX=>param_12,[ESP + 0x30]
+             0x1555e
+        0041555e 68 28 c8        PUSH       lpString2_0044c828                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x15563
+        00415563 50              PUSH       EAX                                              LPCSTR lpString1 for lstrcmpA
+             0x15564
+        00415564 ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x1556a
+        0041556a 85 c0           TEST       EAX,EAX
+             0x1556c
+        0041556c 75 28           JNZ        LAB_00415596
+             0x1556e
+        0041556e 6a 1e           PUSH       0x1e                                             int yBottom for SetRect
+             0x15570
+        00415570 6a 1e           PUSH       0x1e                                             int xRight for SetRect
+             0x15572
+        00415572 50              PUSH       EAX                                              int yTop for SetRect
+             0x15573
+        00415573 8d 4c 24 54     LEA        ECX=>param_17,[ESP + 0x54]
+             0x15577
+        00415577 6a 78           PUSH       0x78                                             int xLeft for SetRect
+             0x15579
+        00415579 51              PUSH       ECX                                              LPRECT lprc for SetRect
+             0x1557a
+        0041557a ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x1557c
+        0041557c 8d 54 24 38     LEA        EDX=>param_13,[ESP + 0x38]
+             0x15580
+        00415580 8d 44 24 48     LEA        EAX=>param_17,[ESP + 0x48]
+             0x15584
+        00415584 52              PUSH       EDX
+             0x15585
+        00415585 56              PUSH       ESI
+             0x15586
+        00415586 50              PUSH       EAX
+             0x15587
+        00415587 6a 2c           PUSH       0x2c
+             0x15589
+        00415589 e8 82 84        CALL       FUN_0042da10                                     undefined FUN_0042da10()
+                 01 00
+             0x1558e
+        0041558e 83 c4 10        ADD        ESP,0x10
+             0x15591
+        00415591 e9 e7 05        JMP        LAB_00415b7d
+                 00 00
+             0x15596
+                             LAB_00415596                                    XREF[1]:     0041556c(j)  
+        00415596 8d 4c 24 30     LEA        ECX=>param_12,[ESP + 0x30]
+             0x1559a
+        0041559a 68 18 ba        PUSH       lpString2_0044ba18                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x1559f
+        0041559f 51              PUSH       ECX                                              LPCSTR lpString1 for lstrcmpA
+             0x155a0
+        004155a0 ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x155a6
+        004155a6 85 c0           TEST       EAX,EAX
+             0x155a8
+        004155a8 75 53           JNZ        LAB_004155fd
+             0x155aa
+        004155aa 6a 1e           PUSH       0x1e                                             int yBottom for SetRect
+             0x155ac
+        004155ac 6a 0f           PUSH       0xf                                              int xRight for SetRect
+             0x155ae
+        004155ae 50              PUSH       EAX                                              int yTop for SetRect
+             0x155af
+        004155af 8d 54 24 54     LEA        EDX=>param_17,[ESP + 0x54]
+             0x155b3
+        004155b3 68 96 00        PUSH       0x96                                             int xLeft for SetRect
+                 00 00
+             0x155b8
+        004155b8 52              PUSH       EDX                                              LPRECT lprc for SetRect
+             0x155b9
+        004155b9 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x155bb
+        004155bb 8d 44 24 38     LEA        EAX=>param_13,[ESP + 0x38]
+             0x155bf
+        004155bf 8d 4c 24 48     LEA        ECX=>param_17,[ESP + 0x48]
+             0x155c3
+        004155c3 50              PUSH       EAX
+             0x155c4
+        004155c4 56              PUSH       ESI
+             0x155c5
+        004155c5 51              PUSH       ECX
+             0x155c6
+                             LAB_004155c6                                    XREF[2]:     0041562d(j), 0041565f(j)  
+        004155c6 6a 2c           PUSH       0x2c
+             0x155c8
+        004155c8 e8 43 84        CALL       FUN_0042da10                                     undefined FUN_0042da10()
+                 01 00
+             0x155cd
+        004155cd 8b 44 24 20     MOV        EAX,dword ptr [ESP + param_4]
+             0x155d1
+        004155d1 8b 8d 3c        MOV        ECX,dword ptr [unaff_EBP + 0x13c]
+                 01 00 00
+             0x155d7
+        004155d7 8b 54 24 48     MOV        EDX,dword ptr [ESP + param_13]
+             0x155db
+        004155db 83 c4 10        ADD        ESP,0x10
+             0x155de
+        004155de d1 e8           SHR        EAX,0x1
+             0x155e0
+        004155e0 2b c8           SUB        ECX,EAX
+             0x155e2
+        004155e2 2b d0           SUB        EDX,EAX
+             0x155e4
+        004155e4 89 8d 3c        MOV        dword ptr [unaff_EBP + 0x13c],ECX
+                 01 00 00
+             0x155ea
+        004155ea 8b 4c 24 14     MOV        ECX,dword ptr [ESP + param_5]
+             0x155ee
+        004155ee 2b c8           SUB        ECX,EAX
+             0x155f0
+        004155f0 89 54 24 38     MOV        dword ptr [ESP + param_13],EDX
+             0x155f4
+        004155f4 89 4c 24 14     MOV        dword ptr [ESP + param_5],ECX
+             0x155f8
+        004155f8 e9 80 05        JMP        LAB_00415b7d
+                 00 00
+             0x155fd
+                             LAB_004155fd                                    XREF[1]:     004155a8(j)  
+        004155fd 8d 54 24 30     LEA        EDX=>param_12,[ESP + 0x30]
+             0x15601
+        00415601 68 14 ba        PUSH       lpString2_0044ba14                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x15606
+        00415606 52              PUSH       EDX                                              LPCSTR lpString1 for lstrcmpA
+             0x15607
+        00415607 ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x1560d
+        0041560d 85 c0           TEST       EAX,EAX
+             0x1560f
+        0041560f 75 1e           JNZ        LAB_0041562f
+             0x15611
+        00415611 6a 1e           PUSH       0x1e                                             int yBottom for SetRect
+             0x15613
+        00415613 6a 0f           PUSH       0xf                                              int xRight for SetRect
+             0x15615
+        00415615 50              PUSH       EAX                                              int yTop for SetRect
+             0x15616
+        00415616 8d 44 24 54     LEA        EAX=>param_17,[ESP + 0x54]
+             0x1561a
+        0041561a 68 a5 00        PUSH       0xa5                                             int xLeft for SetRect
+                 00 00
+             0x1561f
+        0041561f 50              PUSH       EAX                                              LPRECT lprc for SetRect
+             0x15620
+        00415620 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x15622
+        00415622 8d 4c 24 38     LEA        ECX=>param_13,[ESP + 0x38]
+             0x15626
+        00415626 8d 54 24 48     LEA        EDX=>param_17,[ESP + 0x48]
+             0x1562a
+        0041562a 51              PUSH       ECX
+             0x1562b
+        0041562b 56              PUSH       ESI
+             0x1562c
+        0041562c 52              PUSH       EDX
+             0x1562d
+        0041562d eb 97           JMP        LAB_004155c6
+             0x1562f
+                             LAB_0041562f                                    XREF[1]:     0041560f(j)  
+        0041562f 8d 44 24 30     LEA        EAX=>param_12,[ESP + 0x30]
+             0x15633
+        00415633 68 10 ba        PUSH       lpString2_0044ba10                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x15638
+        00415638 50              PUSH       EAX                                              LPCSTR lpString1 for lstrcmpA
+             0x15639
+        00415639 ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x1563f
+        0041563f 85 c0           TEST       EAX,EAX
+             0x15641
+        00415641 75 21           JNZ        LAB_00415664
+             0x15643
+        00415643 6a 1e           PUSH       0x1e                                             int yBottom for SetRect
+             0x15645
+        00415645 6a 0f           PUSH       0xf                                              int xRight for SetRect
+             0x15647
+        00415647 50              PUSH       EAX                                              int yTop for SetRect
+             0x15648
+        00415648 8d 4c 24 54     LEA        ECX=>param_17,[ESP + 0x54]
+             0x1564c
+        0041564c 68 b4 00        PUSH       0xb4                                             int xLeft for SetRect
+                 00 00
+             0x15651
+        00415651 51              PUSH       ECX                                              LPRECT lprc for SetRect
+             0x15652
+        00415652 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x15654
+        00415654 8d 54 24 38     LEA        EDX=>param_13,[ESP + 0x38]
+             0x15658
+        00415658 8d 44 24 48     LEA        EAX=>param_17,[ESP + 0x48]
+             0x1565c
+        0041565c 52              PUSH       EDX
+             0x1565d
+        0041565d 56              PUSH       ESI
+             0x1565e
+        0041565e 50              PUSH       EAX
+             0x1565f
+        0041565f e9 62 ff        JMP        LAB_004155c6
+                 ff ff
+             0x15664
+                             LAB_00415664                                    XREF[1]:     00415641(j)  
+        00415664 8d 4c 24 30     LEA        ECX=>param_12,[ESP + 0x30]
+             0x15668
+        00415668 68 24 c8        PUSH       lpString2_0044c824                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x1566d
+        0041566d 51              PUSH       ECX                                              LPCSTR lpString1 for lstrcmpA
+             0x1566e
+        0041566e ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x15674
+        00415674 85 c0           TEST       EAX,EAX
+             0x15676
+        00415676 75 2b           JNZ        LAB_004156a3
+             0x15678
+        00415678 6a 1e           PUSH       0x1e                                             int yBottom for SetRect
+             0x1567a
+        0041567a 6a 1e           PUSH       0x1e                                             int xRight for SetRect
+             0x1567c
+        0041567c 50              PUSH       EAX                                              int yTop for SetRect
+             0x1567d
+        0041567d 8d 54 24 54     LEA        EDX=>param_17,[ESP + 0x54]
+             0x15681
+        00415681 68 c3 00        PUSH       0xc3                                             int xLeft for SetRect
+                 00 00
+             0x15686
+        00415686 52              PUSH       EDX                                              LPRECT lprc for SetRect
+             0x15687
+        00415687 ff d7           CALL       EDI=>USER32.DLL::SetRect
+             0x15689
+        00415689 8d 44 24 38     LEA        EAX=>param_13,[ESP + 0x38]
+             0x1568d
+        0041568d 8d 4c 24 48     LEA        ECX=>param_17,[ESP + 0x48]
+             0x15691
+        00415691 50              PUSH       EAX
+             0x15692
+        00415692 56              PUSH       ESI
+             0x15693
+        00415693 51              PUSH       ECX
+             0x15694
+        00415694 6a 2c           PUSH       0x2c
+             0x15696
+        00415696 e8 75 83        CALL       FUN_0042da10                                     undefined FUN_0042da10()
+                 01 00
+             0x1569b
+        0041569b 83 c4 10        ADD        ESP,0x10
+             0x1569e
+        0041569e e9 da 04        JMP        LAB_00415b7d
+                 00 00
+             0x156a3
+                             LAB_004156a3                                    XREF[1]:     00415676(j)  
+        004156a3 8d 54 24 30     LEA        EDX=>param_12,[ESP + 0x30]
+             0x156a7
+        004156a7 68 3c 6e        PUSH       lpString2_00446e3c                               LPCSTR lpString2 for lstrcmpA
+                 44 00
+             0x156ac
+        004156ac 52              PUSH       EDX                                              LPCSTR lpString1 for lstrcmpA
+             0x156ad
+        004156ad ff 15 00        CALL       dword ptr [->KERNEL32.DLL::lstrcmpA]             = 0003b010
+                 a1 43 00
+             0x156b3
+        004156b3 85 c0           TEST       EAX,EAX
+             0x156b5
+        004156b5 75 2d           JNZ        LAB_004156e4
+             0x156b7
+        004156b7 8b 44 24 10     MOV        EAX,dword ptr [ESP + param_4]
+             0x156bb
+        004156bb 8b 4c 24 38     MOV        ECX,dword ptr [ESP + param_13]
+             0x156bf
+        004156bf 8b 54 24 14     MOV        EDX,dword ptr [ESP + param_5]
+             0x156c3
+        004156c3 d1 e8           SHR        EAX,0x1
+             0x156c5
+        004156c5 2b c8           SUB        ECX,EAX
+             0x156c7
+        004156c7 2b d0           SUB        EDX,EAX
+             0x156c9
+        004156c9 89 4c 24 38     MOV        dword ptr [ESP + param_13],ECX
+             0x156cd
+        004156cd 8b 8d 3c        MOV        ECX,dword ptr [unaff_EBP + 0x13c]
+                 01 00 00
+             0x156d3
+        004156d3 2b c8           SUB        ECX,EAX
+             0x156d5
+        004156d5 89 54 24 14     MOV        dword ptr [ESP + param_5],EDX
+             0x156d9
+        004156d9 89 8d 3c        MOV        dword ptr [unaff_EBP + 0x13c],ECX
+                 01 00 00
+             0x156df
+        004156df e9 99 04        JMP        LAB_00415b7d
+                 00 00
+             0x156e4
+                             LAB_004156e4                                    XREF[1]:     004156b5(j)  
+        004156e4 8a 4c 24 30     MOV        CL,byte ptr [ESP + param_12]
+             0x156e8
+        004156e8 8a 44 24 31     MOV        AL,byte ptr [ESP + param_12+0x1]
+             0x156ec
+        004156ec 80 f9 81        CMP        CL,0x81
+             0x156ef
+        004156ef 0f 85 18        JNZ        LAB_0041580d
+                 01 00 00
+             0x156f5
+        004156f5 3c 5c           CMP        AL,0x5c
+             0x156f7
+        004156f7 0f 85 e3        JNZ        LAB_004158e0
+                 01 00 00
+             0x156fd
+        004156fd 8b 54 24 10     MOV        EDX,dword ptr [ESP + param_4]
+             0x15701
+        00415701 8b 44 24 20     MOV        EAX,dword ptr [ESP + param_8]
+             0x15705
+        00415705 8a 0d 44        MOV        CL,byte ptr [DAT_007ca344]
+                 a3 7c 00
+             0x1570b
+        0041570b 83 ea 02        SUB        EDX,0x2
+             0x1570e
+        0041570e 83 e8 04        SUB        EAX,0x4
+             0x15711
+        00415711 89 54 24 10     MOV        dword ptr [ESP + param_4],EDX
+             0x15715
+        00415715 84 c9           TEST       CL,CL
+             0x15717
+        00415717 89 44 24 20     MOV        dword ptr [ESP + param_8],EAX
+             0x1571b
+        0041571b 75 2f           JNZ        LAB_0041574c
+             0x1571d
+        0041571d 83 e8 04        SUB        EAX,0x4
+             0x15720
+        00415720 83 ea 02        SUB        EDX,0x2
+             0x15723
+        00415723 89 44 24 20     MOV        dword ptr [ESP + param_8],EAX
+             0x15727
+        00415727 89 44 24 60     MOV        dword ptr [ESP + Stack[0x60]],EAX
+             0x1572b
+        0041572b 8b 44 24 14     MOV        EAX,dword ptr [ESP + param_5]
+             0x1572f
+        0041572f 89 54 24 10     MOV        dword ptr [ESP + param_4],EDX
+             0x15733
+        00415733 8b 54 24 28     MOV        EDX,dword ptr [ESP + param_10]
+             0x15737
+        00415737 83 c0 02        ADD        EAX,0x2
+             0x1573a
+        0041573a c7 44 24        MOV        dword ptr [ESP + Stack[0x58]],0x2
+                 58 02 00 
+                 00 00
+             0x15742
+        00415742 89 44 24 38     MOV        dword ptr [ESP + param_13],EAX
+             0x15746
+        00415746 89 54 24 3c     MOV        dword ptr [ESP + param_14],EDX
+             0x1574a
+        0041574a eb 36           JMP        LAB_00415782
+             0x1574c
+                             LAB_0041574c                                    XREF[1]:     0041571b(j)  
+        0041574c 80 f9 01        CMP        CL,0x1
+             0x1574f
+        0041574f 72 31           JC         LAB_00415782
+             0x15751
+        00415751 8b 54 24 14     MOV        EDX,dword ptr [ESP + param_5]
+             0x15755
+        00415755 89 44 24 60     MOV        dword ptr [ESP + Stack[0x60]],EAX
+             0x15759
+        00415759 83 c2 02        ADD        EDX,0x2
+             0x1575c
+        0041575c c7 44 24        MOV        dword ptr [ESP + Stack[0x58]],0x4
+                 58 04 00 
+                 00 00
+             0x15764
+        00415764 89 54 24 38     MOV        dword ptr [ESP + param_13],EDX
+             0x15768
+        00415768 8b 54 24 28     MOV        EDX,dword ptr [ESP + param_10]
+             0x1576c
+        0041576c 89 54 24 3c     MOV        dword ptr [ESP + param_14],EDX
+             0x15770
+        00415770 8b 54 24 10     MOV        EDX,dword ptr [ESP + param_4]
+             0x15774
+        00415774 83 ea 02        SUB        EDX,0x2
+             0x15777
+        00415777 83 e8 04        SUB        EAX,0x4
+             0x1577a
+        0041577a 89 54 24 10     MOV        dword ptr [ESP + param_4],EDX
+             0x1577e
+        0041577e 89 44 24 20     MOV        dword ptr [ESP + param_8],EAX
+             0x15782
+                             LAB_00415782                                    XREF[2]:     0041574a(j), 0041574f(j)  
+        00415782 68 80 00        PUSH       0x80
+                 00 00
+             0x15787
+        00415787 68 80 00        PUSH       0x80
+                 00 00
+             0x1578c
+        0041578c 68 80 00        PUSH       0x80
+                 00 00
+             0x15791
+        00415791 fe c1           INC        CL
+             0x15793
+        00415793 6a 00           PUSH       0x0
+             0x15795
+        00415795 6a 3d           PUSH       0x3d
+             0x15797
+        00415797 88 0d 44        MOV        byte ptr [DAT_007ca344],CL
+                 a3 7c 00
+             0x1579d
+        0041579d e8 4e 7f        CALL       FUN_0042d6f0                                     undefined FUN_0042d6f0()
+                 01 00
+             0x157a2
+        004157a2 8b 84 24        MOV        EAX,dword ptr [ESP + handle_inStack_0000006c]
+                 80 00 00 00
+             0x157a9
+        004157a9 83 c4 14        ADD        ESP,0x14
+             0x157ac
+        004157ac 6a 00           PUSH       0x0                                              COLORREF color for SetTextColor
+             0x157ae
+        004157ae 50              PUSH       EAX                                              HDC hdc for SetTextColor
+             0x157af
+        004157af ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x157b1
+        004157b1 8b 54 24 6c     MOV        EDX,dword ptr [ESP + handle_inStack_0000006c]
+             0x157b5
+        004157b5 8d 4c 24 30     LEA        ECX=>param_12,[ESP + 0x30]
+             0x157b9
+        004157b9 6a 02           PUSH       0x2                                              int c for TextOutA
+             0x157bb
+        004157bb 51              PUSH       ECX                                              LPCSTR lpString for TextOutA
+             0x157bc
+        004157bc 6a 04           PUSH       0x4                                              int y for TextOutA
+             0x157be
+        004157be 6a 04           PUSH       0x4                                              int x for TextOutA
+             0x157c0
+        004157c0 52              PUSH       EDX                                              HDC hdc for TextOutA
+             0x157c1
+        004157c1 ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x157c7
+        004157c7 8b 44 24 6c     MOV        EAX,dword ptr [ESP + handle_inStack_0000006c]
+             0x157cb
+        004157cb 68 ff ff        PUSH       0xffffff                                         COLORREF color for SetTextColor
+                 ff 00
+             0x157d0
+        004157d0 50              PUSH       EAX                                              HDC hdc for SetTextColor
+             0x157d1
+        004157d1 ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x157d3
+        004157d3 8b 54 24 6c     MOV        EDX,dword ptr [ESP + handle_inStack_0000006c]
+             0x157d7
+        004157d7 8d 4c 24 30     LEA        ECX=>param_12,[ESP + 0x30]
+             0x157db
+        004157db 6a 02           PUSH       0x2                                              int c for TextOutA
+             0x157dd
+        004157dd 51              PUSH       ECX                                              LPCSTR lpString for TextOutA
+             0x157de
+        004157de 6a 00           PUSH       0x0                                              int y for TextOutA
+             0x157e0
+        004157e0 6a 00           PUSH       0x0                                              int x for TextOutA
+             0x157e2
+        004157e2 52              PUSH       EDX                                              HDC hdc for TextOutA
+             0x157e3
+        004157e3 ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x157e9
+        004157e9 8b 44 24 18     MOV        EAX,dword ptr [ESP + param_6]
+             0x157ed
+        004157ed 8b 4c 24 1c     MOV        ECX,dword ptr [ESP + param_7]
+             0x157f1
+        004157f1 50              PUSH       EAX
+             0x157f2
+        004157f2 8d 54 24 3c     LEA        EDX=>param_13,[ESP + 0x3c]
+             0x157f6
+        004157f6 51              PUSH       ECX
+             0x157f7
+        004157f7 52              PUSH       EDX
+             0x157f8
+        004157f8 8d 44 24 64     LEA        EAX=>Stack[0x58],[ESP + 0x64]
+             0x157fc
+        004157fc 56              PUSH       ESI
+             0x157fd
+        004157fd 50              PUSH       EAX
+             0x157fe
+        004157fe 6a 3d           PUSH       0x3d
+             0x15800
+        00415800 e8 9b 8e        CALL       FUN_0042e6a0                                     undefined FUN_0042e6a0()
+                 01 00
+             0x15805
+        00415805 83 c4 18        ADD        ESP,0x18
+             0x15808
+        00415808 e9 70 03        JMP        LAB_00415b7d
+                 00 00
+             0x1580d
+                             LAB_0041580d                                    XREF[1]:     004156ef(j)  
+        0041580d 80 f9 82        CMP        CL,0x82
+             0x15810
+        00415810 0f 85 0a        JNZ        LAB_00415a20
+                 02 00 00
+             0x15816
+        00415816 3c 4f           CMP        AL,0x4f
+             0x15818
+        00415818 0f 82 02        JC         LAB_00415a20
+                 02 00 00
+             0x1581e
+        0041581e 3c 9a           CMP        AL,0x9a
+             0x15820
+        00415820 0f 87 fa        JA         LAB_00415a20
+                 01 00 00
+             0x15826
+        00415826 8b 7c 24 10     MOV        EDI,dword ptr [ESP + param_4]
+             0x1582a
+        0041582a c6 05 44        MOV        byte ptr [DAT_007ca344],0x0
+                 a3 7c 00 00
+             0x15831
+        00415831 d1 ef           SHR        EDI,0x1
+             0x15833
+        00415833 3c 59           CMP        AL,0x59
+             0x15835
+        00415835 8d 0c 3f        LEA        ECX,[EDI + EDI*0x1]
+             0x15838
+        00415838 89 4c 24 60     MOV        dword ptr [ESP + Stack[0x60]],ECX
+             0x1583c
+        0041583c 77 04           JA         LAB_00415842
+             0x1583e
+        0041583e 2c 1f           SUB        AL,0x1f
+             0x15840
+        00415840 eb 0a           JMP        LAB_0041584c
+             0x15842
+                             LAB_00415842                                    XREF[1]:     0041583c(j)  
+        00415842 3c 7a           CMP        AL,0x7a
+             0x15844
+        00415844 77 04           JA         LAB_0041584a
+             0x15846
+        00415846 2c 1f           SUB        AL,0x1f
+             0x15848
+        00415848 eb 02           JMP        LAB_0041584c
+             0x1584a
+                             LAB_0041584a                                    XREF[1]:     00415844(j)  
+        0041584a 2c 20           SUB        AL,0x20
+             0x1584c
+                             LAB_0041584c                                    XREF[2]:     00415840(j), 00415848(j)  
+        0041584c 68 80 00        PUSH       0x80
+                 00 00
+             0x15851
+        00415851 68 80 00        PUSH       0x80
+                 00 00
+             0x15856
+        00415856 68 80 00        PUSH       0x80
+                 00 00
+             0x1585b
+        0041585b 6a 00           PUSH       0x0
+             0x1585d
+        0041585d 6a 3d           PUSH       0x3d
+             0x1585f
+        0041585f 88 44 24 44     MOV        byte ptr [ESP + param_12],AL
+             0x15863
+        00415863 c6 44 24        MOV        byte ptr [ESP + param_12+0x1],0x0
+                 45 00
+             0x15868
+        00415868 e8 83 7e        CALL       FUN_0042d6f0                                     undefined FUN_0042d6f0()
+                 01 00
+             0x1586d
+        0041586d 8b 94 24        MOV        EDX,dword ptr [ESP + handle_inStack_0000006c]
+                 80 00 00 00
+             0x15874
+        00415874 83 c4 14        ADD        ESP,0x14
+             0x15877
+        00415877 6a 00           PUSH       0x0                                              COLORREF color for SetTextColor
+             0x15879
+        00415879 52              PUSH       EDX                                              HDC hdc for SetTextColor
+             0x1587a
+        0041587a ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x1587c
+        0041587c 8b 4c 24 6c     MOV        ECX,dword ptr [ESP + handle_inStack_0000006c]
+             0x15880
+        00415880 8d 44 24 30     LEA        EAX=>param_12,[ESP + 0x30]
+             0x15884
+        00415884 6a 01           PUSH       0x1                                              int c for TextOutA
+             0x15886
+        00415886 50              PUSH       EAX                                              LPCSTR lpString for TextOutA
+             0x15887
+        00415887 6a 04           PUSH       0x4                                              int y for TextOutA
+             0x15889
+        00415889 6a 04           PUSH       0x4                                              int x for TextOutA
+             0x1588b
+        0041588b 51              PUSH       ECX                                              HDC hdc for TextOutA
+             0x1588c
+        0041588c ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x15892
+        00415892 8b 54 24 6c     MOV        EDX,dword ptr [ESP + handle_inStack_0000006c]
+             0x15896
+        00415896 68 ff ff        PUSH       0xffffff                                         COLORREF color for SetTextColor
+                 ff 00
+             0x1589b
+        0041589b 52              PUSH       EDX                                              HDC hdc for SetTextColor
+             0x1589c
+        0041589c ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x1589e
+        0041589e 8b 4c 24 6c     MOV        ECX,dword ptr [ESP + handle_inStack_0000006c]
+             0x158a2
+        004158a2 8d 44 24 30     LEA        EAX=>param_12,[ESP + 0x30]
+             0x158a6
+        004158a6 6a 01           PUSH       0x1                                              int c for TextOutA
+             0x158a8
+        004158a8 50              PUSH       EAX                                              LPCSTR lpString for TextOutA
+             0x158a9
+        004158a9 6a 00           PUSH       0x0                                              int y for TextOutA
+             0x158ab
+        004158ab 6a 00           PUSH       0x0                                              int x for TextOutA
+             0x158ad
+        004158ad 51              PUSH       ECX                                              HDC hdc for TextOutA
+             0x158ae
+        004158ae ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x158b4
+        004158b4 8b 54 24 18     MOV        EDX,dword ptr [ESP + param_6]
+             0x158b8
+        004158b8 8b 44 24 1c     MOV        EAX,dword ptr [ESP + param_7]
+             0x158bc
+        004158bc 52              PUSH       EDX
+             0x158bd
+        004158bd 8d 4c 24 3c     LEA        ECX=>param_13,[ESP + 0x3c]
+             0x158c1
+        004158c1 50              PUSH       EAX
+             0x158c2
+        004158c2 51              PUSH       ECX
+             0x158c3
+        004158c3 8d 54 24 64     LEA        EDX=>Stack[0x58],[ESP + 0x64]
+             0x158c7
+        004158c7 56              PUSH       ESI
+             0x158c8
+        004158c8 52              PUSH       EDX
+             0x158c9
+        004158c9 6a 3d           PUSH       0x3d
+             0x158cb
+        004158cb e8 d0 8d        CALL       FUN_0042e6a0                                     undefined FUN_0042e6a0()
+                 01 00
+             0x158d0
+        004158d0 8b 44 24 38     MOV        EAX,dword ptr [ESP + param_8]
+             0x158d4
+        004158d4 83 c4 18        ADD        ESP,0x18
+             0x158d7
+        004158d7 89 44 24 60     MOV        dword ptr [ESP + Stack[0x60]],EAX
+             0x158db
+        004158db e9 75 02        JMP        LAB_00415b55
+                 00 00
+             0x158e0
+                             LAB_004158e0                                    XREF[1]:     004156f7(j)  
+        004158e0 3c 43           CMP        AL,0x43
+             0x158e2
+        004158e2 74 2c           JZ         LAB_00415910
+             0x158e4
+        004158e4 3c 44           CMP        AL,0x44
+             0x158e6
+        004158e6 74 28           JZ         LAB_00415910
+             0x158e8
+        004158e8 3c 48           CMP        AL,0x48
+             0x158ea
+        004158ea 74 24           JZ         LAB_00415910
+             0x158ec
+        004158ec 3c 49           CMP        AL,0x49
+             0x158ee
+        004158ee 74 20           JZ         LAB_00415910
+             0x158f0
+        004158f0 3c 5e           CMP        AL,0x5e
+             0x158f2
+        004158f2 74 1c           JZ         LAB_00415910
+             0x158f4
+        004158f4 3c 66           CMP        AL,0x66
+             0x158f6
+        004158f6 74 18           JZ         LAB_00415910
+             0x158f8
+        004158f8 3c 69           CMP        AL,0x69
+             0x158fa
+        004158fa 74 14           JZ         LAB_00415910
+             0x158fc
+        004158fc 3c 6a           CMP        AL,0x6a
+             0x158fe
+        004158fe 74 10           JZ         LAB_00415910
+             0x15900
+        00415900 3c 7c           CMP        AL,0x7c
+             0x15902
+        00415902 74 0c           JZ         LAB_00415910
+             0x15904
+        00415904 3c 83           CMP        AL,0x83
+             0x15906
+        00415906 74 08           JZ         LAB_00415910
+             0x15908
+        00415908 3c 84           CMP        AL,0x84
+             0x1590a
+        0041590a 0f 85 10        JNZ        LAB_00415a20
+                 01 00 00
+             0x15910
+                             LAB_00415910                                    XREF[10]:    004158e2(j), 004158e6(j), 
+                                                                                          004158ea(j), 004158ee(j), 
+                                                                                          004158f2(j), 004158f6(j), 
+                                                                                          004158fa(j), 004158fe(j), 
+                                                                                          00415902(j), 00415906(j)  
+        00415910 8b 54 24 31     MOV        EDX,dword ptr [ESP + param_12+0x1]
+             0x15914
+        00415914 8b 7c 24 10     MOV        EDI,dword ptr [ESP + param_4]
+             0x15918
+        00415918 81 e2 ff        AND        EDX,0xff
+                 00 00 00
+             0x1591e
+        0041591e c6 05 44        MOV        byte ptr [DAT_007ca344],0x0
+                 a3 7c 00 00
+             0x15925
+        00415925 d1 ef           SHR        EDI,0x1
+             0x15927
+        00415927 8d 42 bd        LEA        EAX,[EDX + -0x43]
+             0x1592a
+        0041592a 8d 0c 3f        LEA        ECX,[EDI + EDI*0x1]
+             0x1592d
+        0041592d 83 f8 41        CMP        EAX,0x41
+             0x15930
+        00415930 89 4c 24 60     MOV        dword ptr [ESP + Stack[0x60]],ECX
+             0x15934
+        00415934 77 5a           JA         switchD_0041593e::caseD_45
+             0x15936
+        00415936 33 c9           XOR        ECX,ECX
+             0x15938
+        00415938 8a 88 14        MOV        CL,byte ptr [EAX + 0x415c14]=>switchdataD_0041
+                 5c 41 00
+             0x1593e
+                             switchD_0041593e::switchD
+        0041593e ff 24 8d        JMP        dword ptr [ECX*0x4 + switchD_0041593e::switchd   = 00415945
+                 e4 5b 41 00
+             0x15945
+                             switchD_0041593e::caseD_43                      XREF[2]:     0041593e(j), 00415be4(*)  
+        00415945 c6 44 24        MOV        byte ptr [ESP + param_12],0x2c
+                 30 2c
+             0x1594a
+        0041594a eb 44           JMP        switchD_0041593e::caseD_45
+             0x1594c
+                             switchD_0041593e::caseD_44                      XREF[2]:     0041593e(j), 00415be8(*)  
+        0041594c c6 44 24        MOV        byte ptr [ESP + param_12],0x2e
+                 30 2e
+             0x15951
+        00415951 eb 3d           JMP        switchD_0041593e::caseD_45
+             0x15953
+                             switchD_0041593e::caseD_48                      XREF[2]:     0041593e(j), 00415bec(*)  
+        00415953 c6 44 24        MOV        byte ptr [ESP + param_12],0x3f
+                 30 3f
+             0x15958
+        00415958 eb 36           JMP        switchD_0041593e::caseD_45
+             0x1595a
+                             switchD_0041593e::caseD_49                      XREF[2]:     0041593e(j), 00415bf0(*)  
+        0041595a c6 44 24        MOV        byte ptr [ESP + param_12],0x21
+                 30 21
+             0x1595f
+        0041595f eb 2f           JMP        switchD_0041593e::caseD_45
+             0x15961
+                             switchD_0041593e::caseD_5e                      XREF[2]:     0041593e(j), 00415bf4(*)  
+        00415961 c6 44 24        MOV        byte ptr [ESP + param_12],0x2f
+                 30 2f
+             0x15966
+        00415966 eb 28           JMP        switchD_0041593e::caseD_45
+             0x15968
+                             switchD_0041593e::caseD_66                      XREF[2]:     0041593e(j), 00415bf8(*)  
+        00415968 c6 44 24        MOV        byte ptr [ESP + param_12],0x27
+                 30 27
+             0x1596d
+        0041596d eb 21           JMP        switchD_0041593e::caseD_45
+             0x1596f
+                             switchD_0041593e::caseD_69                      XREF[2]:     0041593e(j), 00415bfc(*)  
+        0041596f c6 44 24        MOV        byte ptr [ESP + param_12],0x28
+                 30 28
+             0x15974
+        00415974 eb 1a           JMP        switchD_0041593e::caseD_45
+             0x15976
+                             switchD_0041593e::caseD_6a                      XREF[2]:     0041593e(j), 00415c00(*)  
+        00415976 c6 44 24        MOV        byte ptr [ESP + param_12],0x29
+                 30 29
+             0x1597b
+        0041597b eb 13           JMP        switchD_0041593e::caseD_45
+             0x1597d
+                             switchD_0041593e::caseD_7c                      XREF[2]:     0041593e(j), 00415c04(*)  
+        0041597d c6 44 24        MOV        byte ptr [ESP + param_12],0x2d
+                 30 2d
+             0x15982
+        00415982 eb 0c           JMP        switchD_0041593e::caseD_45
+             0x15984
+                             switchD_0041593e::caseD_83                      XREF[2]:     0041593e(j), 00415c08(*)  
+        00415984 c6 44 24        MOV        byte ptr [ESP + param_12],0x3c
+                 30 3c
+             0x15989
+        00415989 eb 05           JMP        switchD_0041593e::caseD_45
+             0x1598b
+                             switchD_0041593e::caseD_84                      XREF[2]:     0041593e(j), 00415c0c(*)  
+        0041598b c6 44 24        MOV        byte ptr [ESP + param_12],0x3e
+                 30 3e
+             0x15990
+                             switchD_0041593e::caseD_46                      XREF[13]:    00415934(j), 0041593e(j), 
+                             switchD_0041593e::caseD_47                                   0041594a(j), 00415951(j), 
+                             switchD_0041593e::caseD_4a                                   00415958(j), 0041595f(j), 
+                             switchD_0041593e::caseD_4b                                   00415966(j), 0041596d(j), 
+                             switchD_0041593e::caseD_4c                                   00415974(j), 0041597b(j), 
+                             switchD_0041593e::caseD_4d                                   00415982(j), 00415989(j), 
+                             switchD_0041593e::caseD_4e                                   00415c10(*)  
+                             switchD_0041593e::caseD_4f
+                             switchD_0041593e::caseD_50
+                             switchD_0041593e::caseD_51
+                             switchD_0041593e::caseD_52
+                             switchD_0041593e::caseD_53
+                             switchD_0041593e::caseD_54
+                             switchD_0041593e::caseD_55
+                             switchD_0041593e::caseD_56
+                             switchD_0041593e::caseD_57
+                             switchD_0041593e::caseD_58
+                             switchD_0041593e::caseD_59
+                             switchD_0041593e::caseD_5a
+                             switchD_0041593e::caseD_5b
+                             switchD_0041593e::caseD_5c
+                             switchD_0041593e::caseD_5d
+                             switchD_0041593e::caseD_5f
+                             switchD_0041593e::caseD_60
+                             switchD_0041593e::caseD_61
+                             switchD_0041593e::caseD_62
+                             switchD_0041593e::caseD_63
+                             switchD_0041593e::caseD_64
+                             switchD_0041593e::caseD_65
+                             switchD_0041593e::caseD_67
+                             switchD_0041593e::caseD_68
+                             switchD_0041593e::caseD_6b
+                             switchD_0041593e::caseD_6c
+                             switchD_0041593e::caseD_6d
+                             switchD_0041593e::caseD_6e
+                             switchD_0041593e::caseD_6f
+                             switchD_0041593e::caseD_70
+                             switchD_0041593e::caseD_71
+                             switchD_0041593e::caseD_72
+                             switchD_0041593e::caseD_73
+                             switchD_0041593e::caseD_74
+                             switchD_0041593e::caseD_75
+                             switchD_0041593e::caseD_76
+                             switchD_0041593e::caseD_77
+                             switchD_0041593e::caseD_78
+                             switchD_0041593e::caseD_79
+                             switchD_0041593e::caseD_7a
+                             switchD_0041593e::caseD_7b
+                             switchD_0041593e::caseD_7d
+                             switchD_0041593e::caseD_7e
+                             switchD_0041593e::caseD_7f
+                             switchD_0041593e::caseD_80
+                             switchD_0041593e::caseD_81
+                             switchD_0041593e::caseD_82
+                             switchD_0041593e::caseD_45
+        00415990 68 80 00        PUSH       0x80
+                 00 00
+             0x15995
+        00415995 68 80 00        PUSH       0x80
+                 00 00
+             0x1599a
+        0041599a 68 80 00        PUSH       0x80
+                 00 00
+             0x1599f
+        0041599f 6a 00           PUSH       0x0
+             0x159a1
+        004159a1 6a 3d           PUSH       0x3d
+             0x159a3
+        004159a3 c6 44 24        MOV        byte ptr [ESP + param_12+0x1],0x0
+                 45 00
+             0x159a8
+        004159a8 e8 43 7d        CALL       FUN_0042d6f0                                     undefined FUN_0042d6f0()
+                 01 00
+             0x159ad
+        004159ad 8b 94 24        MOV        EDX,dword ptr [ESP + handle_inStack_0000006c]
+                 80 00 00 00
+             0x159b4
+        004159b4 83 c4 14        ADD        ESP,0x14
+             0x159b7
+        004159b7 6a 00           PUSH       0x0                                              COLORREF color for SetTextColor
+             0x159b9
+        004159b9 52              PUSH       EDX                                              HDC hdc for SetTextColor
+             0x159ba
+        004159ba ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x159bc
+        004159bc 8b 4c 24 6c     MOV        ECX,dword ptr [ESP + handle_inStack_0000006c]
+             0x159c0
+        004159c0 8d 44 24 30     LEA        EAX=>param_12,[ESP + 0x30]
+             0x159c4
+        004159c4 6a 01           PUSH       0x1                                              int c for TextOutA
+             0x159c6
+        004159c6 50              PUSH       EAX                                              LPCSTR lpString for TextOutA
+             0x159c7
+        004159c7 6a 04           PUSH       0x4                                              int y for TextOutA
+             0x159c9
+        004159c9 6a 04           PUSH       0x4                                              int x for TextOutA
+             0x159cb
+        004159cb 51              PUSH       ECX                                              HDC hdc for TextOutA
+             0x159cc
+        004159cc ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x159d2
+        004159d2 8b 54 24 6c     MOV        EDX,dword ptr [ESP + handle_inStack_0000006c]
+             0x159d6
+        004159d6 68 ff ff        PUSH       0xffffff                                         COLORREF color for SetTextColor
+                 ff 00
+             0x159db
+        004159db 52              PUSH       EDX                                              HDC hdc for SetTextColor
+             0x159dc
+        004159dc ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x159de
+        004159de 8b 4c 24 6c     MOV        ECX,dword ptr [ESP + handle_inStack_0000006c]
+             0x159e2
+        004159e2 8d 44 24 30     LEA        EAX=>param_12,[ESP + 0x30]
+             0x159e6
+        004159e6 6a 01           PUSH       0x1                                              int c for TextOutA
+             0x159e8
+        004159e8 50              PUSH       EAX                                              LPCSTR lpString for TextOutA
+             0x159e9
+        004159e9 6a 00           PUSH       0x0                                              int y for TextOutA
+             0x159eb
+        004159eb 6a 00           PUSH       0x0                                              int x for TextOutA
+             0x159ed
+        004159ed 51              PUSH       ECX                                              HDC hdc for TextOutA
+             0x159ee
+        004159ee ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x159f4
+        004159f4 8b 54 24 18     MOV        EDX,dword ptr [ESP + param_6]
+             0x159f8
+        004159f8 8b 44 24 1c     MOV        EAX,dword ptr [ESP + param_7]
+             0x159fc
+        004159fc 52              PUSH       EDX
+             0x159fd
+        004159fd 8d 4c 24 3c     LEA        ECX=>param_13,[ESP + 0x3c]
+             0x15a01
+        00415a01 50              PUSH       EAX
+             0x15a02
+        00415a02 51              PUSH       ECX
+             0x15a03
+        00415a03 8d 54 24 64     LEA        EDX=>Stack[0x58],[ESP + 0x64]
+             0x15a07
+        00415a07 56              PUSH       ESI
+             0x15a08
+        00415a08 52              PUSH       EDX
+             0x15a09
+        00415a09 6a 3d           PUSH       0x3d
+             0x15a0b
+        00415a0b e8 90 8c        CALL       FUN_0042e6a0                                     undefined FUN_0042e6a0()
+                 01 00
+             0x15a10
+        00415a10 8b 44 24 38     MOV        EAX,dword ptr [ESP + param_8]
+             0x15a14
+        00415a14 83 c4 18        ADD        ESP,0x18
+             0x15a17
+        00415a17 89 44 24 60     MOV        dword ptr [ESP + Stack[0x60]],EAX
+             0x15a1b
+        00415a1b e9 35 01        JMP        LAB_00415b55
+                 00 00
+             0x15a20
+                             LAB_00415a20                                    XREF[4]:     00415810(j), 00415818(j), 
+                                                                                          00415820(j), 0041590a(j)  
+        00415a20 f6 c1 80        TEST       CL,0x80
+             0x15a23
+        00415a23 0f 84 92        JZ         LAB_00415abb
+                 00 00 00
+             0x15a29
+        00415a29 84 c0           TEST       AL,AL
+             0x15a2b
+        00415a2b 0f 84 8a        JZ         LAB_00415abb
+                 00 00 00
+             0x15a31
+        00415a31 68 80 00        PUSH       0x80
+                 00 00
+             0x15a36
+        00415a36 68 80 00        PUSH       0x80
+                 00 00
+             0x15a3b
+        00415a3b 68 80 00        PUSH       0x80
+                 00 00
+             0x15a40
+        00415a40 6a 00           PUSH       0x0
+             0x15a42
+        00415a42 6a 3d           PUSH       0x3d
+             0x15a44
+        00415a44 c6 05 44        MOV        byte ptr [DAT_007ca344],0x0
+                 a3 7c 00 00
+             0x15a4b
+        00415a4b e8 a0 7c        CALL       FUN_0042d6f0                                     undefined FUN_0042d6f0()
+                 01 00
+             0x15a50
+        00415a50 8b 8c 24        MOV        ECX,dword ptr [ESP + handle_inStack_0000006c]
+                 80 00 00 00
+             0x15a57
+        00415a57 83 c4 14        ADD        ESP,0x14
+             0x15a5a
+        00415a5a 6a 00           PUSH       0x0                                              COLORREF color for SetTextColor
+             0x15a5c
+        00415a5c 51              PUSH       ECX                                              HDC hdc for SetTextColor
+             0x15a5d
+        00415a5d ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x15a5f
+        00415a5f 8b 44 24 6c     MOV        EAX,dword ptr [ESP + handle_inStack_0000006c]
+             0x15a63
+        00415a63 8d 54 24 30     LEA        EDX=>param_12,[ESP + 0x30]
+             0x15a67
+        00415a67 6a 02           PUSH       0x2                                              int c for TextOutA
+             0x15a69
+        00415a69 52              PUSH       EDX                                              LPCSTR lpString for TextOutA
+             0x15a6a
+        00415a6a 6a 04           PUSH       0x4                                              int y for TextOutA
+             0x15a6c
+        00415a6c 6a 04           PUSH       0x4                                              int x for TextOutA
+             0x15a6e
+        00415a6e 50              PUSH       EAX                                              HDC hdc for TextOutA
+             0x15a6f
+        00415a6f ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x15a75
+        00415a75 8b 4c 24 6c     MOV        ECX,dword ptr [ESP + handle_inStack_0000006c]
+             0x15a79
+        00415a79 68 ff ff        PUSH       0xffffff                                         COLORREF color for SetTextColor
+                 ff 00
+             0x15a7e
+        00415a7e 51              PUSH       ECX                                              HDC hdc for SetTextColor
+             0x15a7f
+        00415a7f ff d3           CALL       EBX=>GDI32.DLL::SetTextColor
+             0x15a81
+        00415a81 8b 44 24 6c     MOV        EAX,dword ptr [ESP + handle_inStack_0000006c]
+             0x15a85
+        00415a85 8d 54 24 30     LEA        EDX=>param_12,[ESP + 0x30]
+             0x15a89
+        00415a89 6a 02           PUSH       0x2                                              int c for TextOutA
+             0x15a8b
+        00415a8b 52              PUSH       EDX                                              LPCSTR lpString for TextOutA
+             0x15a8c
+        00415a8c 6a 00           PUSH       0x0                                              int y for TextOutA
+             0x15a8e
+        00415a8e 6a 00           PUSH       0x0                                              int x for TextOutA
+             0x15a90
+        00415a90 50              PUSH       EAX                                              HDC hdc for TextOutA
+             0x15a91
+        00415a91 ff 15 14        CALL       dword ptr [->GDI32.DLL::TextOutA]                = 0003b4f8
+                 a0 43 00
+             0x15a97
+        00415a97 8b 4c 24 18     MOV        ECX,dword ptr [ESP + param_6]
+             0x15a9b
+        00415a9b 8b 54 24 1c     MOV        EDX,dword ptr [ESP + param_7]
+             0x15a9f
+        00415a9f 51              PUSH       ECX
+             0x15aa0
+        00415aa0 8d 44 24 3c     LEA        EAX=>param_13,[ESP + 0x3c]
+             0x15aa4
+        00415aa4 52              PUSH       EDX
+             0x15aa5
+        00415aa5 50              PUSH       EAX
+             0x15aa6
+        00415aa6 8d 4c 24 64     LEA        ECX=>Stack[0x58],[ESP + 0x64]
+             0x15aaa
+        00415aaa 56              PUSH       ESI
+             0x15aab
+        00415aab 51              PUSH       ECX
+             0x15aac
+        00415aac 6a 3d           PUSH       0x3d
+             0x15aae
+        00415aae e8 ed 8b        CALL       FUN_0042e6a0                                     undefined FUN_0042e6a0()
+                 01 00
+             0x15ab3
+        00415ab3 83 c4 18        ADD        ESP,0x18
+             0x15ab6
+        00415ab6 e9 c2 00        JMP        LAB_00415b7d
+                 00 00
+             0x15abb
+                             LAB_00415abb                                    XREF[2]:     00415a23(j), 00415a2b(j)  
+        00415abb 8b 7c 24 10     MOV        EDI,dword ptr [ESP + param_4]
+             0x15abf
+        00415abf 68 80 00        PUSH       0x80
+                 00 00
+             0x15ac4
+        00415ac4 d1 ef           SHR        EDI,0x1
+             0x15ac6
+        00415ac6 68 80 00        PUSH       0x80
+                 00 00
+             0x15acb
+        00415acb 68 80 00        PUSH       0x80
+                 00 00
+             0x15ad0
+        00415ad0 8d 14 3f        LEA        EDX,[EDI + EDI*0x1]
+             0x15ad3
+        00415ad3 6a 00           PUSH       0x0
+             0x15ad5
+        00415ad5 6a 3d           PUSH       0x3d
+             0x15ad7
+        00415ad7 89 54 24 74     MOV        dword ptr [ESP + Stack[0x60]],EDX
+             0x15adb
+        00415adb c6 05 44        MOV        byte ptr [DAT_007ca344],0x0
+                 a3 7c 00 00
+             0x15ae2
+        00415ae2 e8 09 7c        CALL       FUN_0042d6f0                                     undefined FUN_0042d6f0()
+                 01 00
+             0x15ae7
+        00415ae7 83 c4 14        ADD        ESP,0x14
+             0x15aea
+        00415aea 6a 04           PUSH       0x4
+             0x15aec
+        00415aec 6a 04           PUSH       0x4
+             0x15aee
+        00415aee 6a 00           PUSH       0x0
+             0x15af0
+        00415af0 e8 bb 44        CALL       FUN_00439fb0                                     undefined FUN_00439fb0()
+                 02 00
+             0x15af5
+        00415af5 83 3d 3c        CMP        dword ptr [DAT_00459e3c],0x0
+                 9e 45 00 00
+             0x15afc
+        00415afc 75 21           JNZ        FUN_00415b1f
+             0x15afe
+        00415afe 6a 03           PUSH       0x3
+             0x15b00
+        00415b00 6a 01           PUSH       0x1
+             0x15b02
+        00415b02 6a 00           PUSH       0x0
+             0x15b04
+        00415b04 e8 a7 44        CALL       FUN_00439fb0                                     undefined FUN_00439fb0()
+                 02 00
+             0x15b09
+        00415b09 6a 03           PUSH       0x3
+             0x15b0b
+        00415b0b 6a ff           PUSH       -0x1
+             0x15b0d
+        00415b0d 6a 00           PUSH       0x0
+             0x15b0f
+        00415b0f e8 9c 44        CALL       FUN_00439fb0                                     undefined FUN_00439fb0()
+                 02 00
+             0x15b14
+        00415b14 6a fe           PUSH       -0x2
+             0x15b16
+        00415b16 6a fe           PUSH       -0x2
+             0x15b18
+        00415b18 6a 00           PUSH       0x0
+             0x15b1a
+        00415b1a e9 c1 44        JMP        FUN_00439fe0                                     undefined FUN_00439fe0()
+                 02 00
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                               undefined FUN_00415b1f()
+                               assume FS_OFFSET = 0xffdff000
+             undefined         <UNASSIGNED>   <RETURN>
+             0x15b1f
+                             FUN_00415b1f                                    XREF[2]:     RenderTextFunc_0041524c:00415afc
+                                                                                          FUN_00439fe0:00439ffb(c)  
+        00415b1f 6a 00           PUSH       0x0
+             0x15b21
+        00415b21 6a 00           PUSH       0x0
+             0x15b23
+        00415b23 68 ff ff        PUSH       0xffffff
+                 ff 00
+             0x15b28
+        00415b28 e8 83 44        CALL       FUN_00439fb0                                     undefined FUN_00439fb0()
+                 02 00
+             0x15b2d
+        00415b2d 90              NOP
+             0x15b2e
+        00415b2e 8b 44 24 18     MOV        EAX,dword ptr [ESP + Stack[0xc]]
+             0x15b32
+        00415b32 8b 4c 24 1c     MOV        ECX,dword ptr [ESP + Stack[0x10]]
+             0x15b36
+        00415b36 50              PUSH       EAX
+             0x15b37
+        00415b37 8d 54 24 3c     LEA        EDX=>Stack[0x2c],[ESP + 0x3c]
+             0x15b3b
+        00415b3b 51              PUSH       ECX
+             0x15b3c
+        00415b3c 52              PUSH       EDX
+             0x15b3d
+        00415b3d 8d 44 24 64     LEA        EAX=>Stack[0x4c],[ESP + 0x64]
+             0x15b41
+        00415b41 56              PUSH       ESI
+             0x15b42
+        00415b42 50              PUSH       EAX
+             0x15b43
+        00415b43 6a 3d           PUSH       0x3d
+             0x15b45
+        00415b45 e8 56 8b        CALL       FUN_0042e6a0                                     undefined FUN_0042e6a0()
+                 01 00
+             0x15b4a
+        00415b4a 8b 4c 24 38     MOV        ECX,dword ptr [ESP + Stack[0x14]]
+             0x15b4e
+        00415b4e 83 c4 18        ADD        ESP,0x18
+             0x15b51
+        00415b51 89 4c 24 60     MOV        dword ptr [ESP + Stack[0x54]],ECX
+             0x15b55
+                             LAB_00415b55                                    XREF[2]:     RenderTextFunc_0041524c:004158db
+                                                                                          RenderTextFunc_0041524c:00415a1b
+        00415b55 8b 95 3c        MOV        EDX,dword ptr [EBP + 0x13c]
+                 01 00 00
+             0x15b5b
+        00415b5b 8b 4c 24 38     MOV        ECX,dword ptr [ESP + Stack[0x2c]]
+             0x15b5f
+        00415b5f 8b 44 24 14     MOV        EAX,dword ptr [ESP + Stack[0x8]]
+             0x15b63
+        00415b63 2b d7           SUB        EDX,EDI
+             0x15b65
+        00415b65 2b cf           SUB        ECX,EDI
+             0x15b67
+        00415b67 2b c7           SUB        EAX,EDI
+             0x15b69
+        00415b69 8b 3d 60        MOV        EDI,dword ptr [->USER32.DLL::SetRect]            = 0003b1b4
+                 a2 43 00
+             0x15b6f
+        00415b6f 89 95 3c        MOV        dword ptr [EBP + 0x13c],EDX
+                 01 00 00
+             0x15b75
+        00415b75 89 4c 24 38     MOV        dword ptr [ESP + Stack[0x2c]],ECX
+             0x15b79
+        00415b79 89 44 24 14     MOV        dword ptr [ESP + Stack[0x8]],EAX
+             0x15b7d
+                             LAB_00415b7d                                    XREF[9]:     RenderTextFunc_0041524c:004154bd
+                                                                                          RenderTextFunc_0041524c:004154f9
+                                                                                          RenderTextFunc_0041524c:00415535
+                                                                                          RenderTextFunc_0041524c:00415591
+                                                                                          RenderTextFunc_0041524c:004155f8
+                                                                                          RenderTextFunc_0041524c:0041569e
+                                                                                          RenderTextFunc_0041524c:004156df
+                                                                                          RenderTextFunc_0041524c:00415808
+                                                                                          RenderTextFunc_0041524c:00415ab6
+        00415b7d 8b 44 24 10     MOV        EAX,dword ptr [ESP + Stack[0x4]]
+             0x15b81
+        00415b81 8b 4c 24 38     MOV        ECX,dword ptr [ESP + Stack[0x2c]]
+             0x15b85
+        00415b85 8b 54 24 14     MOV        EDX,dword ptr [ESP + Stack[0x8]]
+             0x15b89
+        00415b89 03 c8           ADD        ECX,EAX
+             0x15b8b
+        00415b8b 89 4c 24 38     MOV        dword ptr [ESP + Stack[0x2c]],ECX
+             0x15b8f
+        00415b8f 8b 8d 3c        MOV        ECX,dword ptr [EBP + 0x13c]
+                 01 00 00
+             0x15b95
+        00415b95 03 d0           ADD        EDX,EAX
+             0x15b97
+        00415b97 03 c8           ADD        ECX,EAX
+             0x15b99
+        00415b99 8b 44 24 24     MOV        EAX,dword ptr [ESP + Stack[0x18]]
+             0x15b9d
+        00415b9d 89 8d 3c        MOV        dword ptr [EBP + 0x13c],ECX
+                 01 00 00
+             0x15ba3
+        00415ba3 8b 4c 24 74     MOV        ECX,dword ptr [ESP + Stack[0x68]]
+             0x15ba7
+        00415ba7 40              INC        EAX
+             0x15ba8
+        00415ba8 3b c1           CMP        EAX,ECX
+             0x15baa
+        00415baa 89 54 24 14     MOV        dword ptr [ESP + Stack[0x8]],EDX
+             0x15bae
+        00415bae 89 44 24 24     MOV        dword ptr [ESP + Stack[0x18]],EAX
+             0x15bb2
+        00415bb2 0f 82 a0        JC         LAB_00415458
+                 f8 ff ff
+             0x15bb8
+                             LAB_00415bb8                                    XREF[1]:     RenderTextFunc_0041524c:00415444
+        00415bb8 8b 54 24 2c     MOV        EDX,dword ptr [ESP + Stack[0x20]]
+             0x15bbc
+        00415bbc 8b 44 24 6c     MOV        EAX,dword ptr [ESP + Stack[0x60]]
+             0x15bc0
+        00415bc0 52              PUSH       EDX                                              HGDIOBJ h for SelectObject
+             0x15bc1
+        00415bc1 50              PUSH       EAX                                              HDC hdc for SelectObject
+             0x15bc2
+        00415bc2 ff 15 08        CALL       dword ptr [->GDI32.DLL::SelectObject]            = 0003b4ca
+                 a0 43 00
+             0x15bc8
+                             LAB_00415bc8                                    XREF[1]:     FUN_004392be:00439368(j)  
+        00415bc8 5f              POP        EDI
+             0x15bc9
+        00415bc9 5e              POP        ESI
+             0x15bca
+        00415bca 5d              POP        EBP
+             0x15bcb
+        00415bcb 5b              POP        EBX
+             0x15bcc
+        00415bcc 83 c4 58        ADD        ESP,0x58
+             0x15bcf
+        00415bcf c3              RET
