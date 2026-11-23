@@ -2,7 +2,7 @@
 مشروع مستقل لإنشاء تعديل يقوم بتعريب Ever17 و Remember11
 
 Current State: I'm still trying to figure out best way to let it print Arabic lines, so you can say it's 70% done on the technical side.
-I'm currently working on the solution I mentioned in [Current docs.md](CurrentDocs.md), if it works, I'll start right away translating script, if not, I'll need to look for another solution (I don't have any real other solutions on my mind)
+I'm currently working on the solution I mentioned in [Current docs.md](CurrentDocs.md) (Deleted for personal reasons), if it works, I'll start right away translating script, if not, I'll need to look for another solution (I don't have any real other solutions on my mind)
 Either way I'm looking for anyone can help, whether it's testing or improving code.
 
 This project is programmed mostly in [Nim Language](https://nim-lang.org/)
