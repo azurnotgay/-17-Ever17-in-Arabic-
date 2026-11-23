@@ -10,3 +10,6 @@ I'll also publish docs on how this does work for anyone interested.
 
 Thanks to Himmel patch's team, without them this project wasn't gonna be real.
 This project is built on Himmel Patch.
+
+
+## Note that all current .nim script files are prototypes and temporary, they'll be updated ASAP
