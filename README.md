@@ -5,7 +5,7 @@ Current State: I'm still trying to figure out best way to let it print Arabic li
 
 This project is programmed mostly in [Nim Language](https://nim-lang.org/)
 
-I'll also publish docs on how this does work for anyone who is interested.
+I'll also publish docs on how this does work for anyone interested.
 
 
 Thanks to Himmel patch's team, without them this project wasn't gonna be real.
